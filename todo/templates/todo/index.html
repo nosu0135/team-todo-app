@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, world!</title>
+    <meta name="description" content="テキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'todo/css/style.css' %}">
+</head>
+
+<body>
+    <h1>Hello, World!</h1>    
+    <P id="message">JavaScriptが働いています!</P>
+
+    <script src="{% static 'todo/js/script.js' %}"></script>
+</body>
+</html>
